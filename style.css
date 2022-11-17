@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   box-sizing: border-box;
+}
+body{
+   font-family: 'PT Sans', sans-serif;
+   background-color: dodgerblue;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   min-height: 100vh;
+}
+.container{
+    width: 290px;
+    height: 540px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 20px 0;
+    overflow: hidden;
+}
+.header{
+    padding: 5px 5px 8px 5px;
+    border-bottom: 1px solid #ccc;
+    
+}
+.name-header{
+    display: flex;
+    justify-content: space-between;
+}
+.name-header h2{
+    color: dodgerblue;
+    margin-left: 5px;
+}
+.name-header i{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+.list-item{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+    padding: 0 13px;
+}
+.list-item i{
+    font-size: 16px;
+}
+.list-item .fa-home{
+    color: dodgerblue;
+}
+.profile{
+    width: 100%;
+    padding: 5px 5px 7px 5px;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid #ccc;
+}
+.profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+.profile .what-is-on-your-mind{
+    width: 170px;
+    padding: 11px;
+    background-color: #EBEBEC;
+    border: none;
+    border-radius: 30px;
+    font-size: 14px;
+    outline: none;
+    margin-left: 5px;
+}
+.add-photo{
+    margin-left: 15px;
+    text-align: center;
+}
+.profile .add-photo i{
+    font-size: 22px;
+}
+.profile .add-photo p{
+    font-size: 14px;
+}
+.stories{
+    display: flex;
+    padding: 6px 0 6px 5px;
+    overflow: hidden;
+    border-bottom: 3px solid #ccc;
+}
+.stories .story{
+    min-width: 75px;
+    height: 115px;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    margin: 0 2px;
+}
+.stories .story img{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.add-story{
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+.add-story i{
+    position: absolute;
+    top: -7px;
+    left: 25px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: dodgerblue;
+    line-height: 20px;
+    color: white;
+}
+.add-story h4{
+    text-align: center;
+    padding-top: 10px;
+}
+.other-story h5{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    color: white;
+    padding: 3px 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.post-head{
+    display: flex;
+    position: relative;
+    padding: 5px;
+}
+.post .post-head img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: 0 10px 0 0;
+}
+.post-name h3{
+    display: flex;
+    align-items: center;
+}
+.post-name h3 span{
+    margin: 0 10px 0 0;
+}
+.post-name h3 i{
+    font-size: 10px;
+    font-weight: bold;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: dodgerblue;
+    color: #fff;
+}
+.post-name p{
+    font-size: 11px;
+}
+.cancel-more{
+    position: absolute;
+    right: 6px;
+}
+.cancel-more i{
+    font-size: 18px;
+    margin: 0 5px;
+}
+.post .the-post h4{
+    margin: 5px 10px;
+}
+.post .the-post img{
+    width: 100%;
+}
